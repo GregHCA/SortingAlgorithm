@@ -26,7 +26,7 @@ namespace SortComparison
 
         public SortAlgorithm(ArrayList list, PictureBox pic, bool sp, string of, int s, string outFile)
         {
-            imgCount = 0;
+            imgCount = 1;
             arrayToSort = list;
             pnlSamples = pic;
             savePicture = sp;
